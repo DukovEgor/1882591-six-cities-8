@@ -1,3 +1,4 @@
-const buffer = Buffer.from("HTML");
-buffer.write("CSS", 1);
-console.log(buffer.keys());
+import "dotenv/config.js";
+
+console.log(process.env.NODE_ENV); // development
+console.log(process.env.PORT); // 8626
