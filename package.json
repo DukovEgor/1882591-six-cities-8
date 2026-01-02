@@ -14,7 +14,7 @@
     "npm": ">=10"
   },
   "scripts": {
-    "start": "npm run build && node ./dist/main.js",
+    "start": "npm run build && node ./dist/main.rest.js",
     "build": "npm run clean && npm run compile",
     "lint": "eslint src/ --ext .ts",
     "compile": "tsc -p tsconfig.json",
